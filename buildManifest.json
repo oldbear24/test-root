@@ -1,0 +1,16 @@
+{
+    "project_type":"core",
+    "minimum_core_version": "0.0.0",
+    "projects": [
+        {
+            "location":"core/proj.csproj",
+            "moduleLocation":"module/{:assembly_name:}"
+        }
+    ],
+    "folders":[
+        {
+        "source":"build/",
+        "destination":"dest/"
+    }
+    ]
+}
